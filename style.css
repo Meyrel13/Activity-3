@@ -1,0 +1,90 @@
+    body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-container {
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./background1.jpg) no-repeat center center/cover;
+    color: white;
+    opacity: 100%;
+}
+
+.weather-container img {
+    width: 150px;
+}
+
+.city {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.temperature {
+    font-size: 100px;
+    margin: 10px 0;
+    color: black;
+}
+
+.description {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.forecast {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.day {
+    text-align: center;
+}
+
+.day img {
+    width: 100px;
+}
+
+.day h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.day .icon {
+    font-size: 36px;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.day .temp {
+    font-size: 25px;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    padding-left: 40px;
+    top: 900px;
+    font-size: 15px;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        width: 90%;
+    }
